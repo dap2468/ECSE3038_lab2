@@ -1,6 +1,5 @@
 
-1) update_todo_by_id(), handles incoming `PATCH` requests from the demo site. The function accepts 
-the ID of the todo that should be updated and a todo request object that has the desired changes. The function then search for the matching todo object in your todo list and update it with the received changes.
+1) update_todo_by_id(), handles incoming `PATCH` requests from the demo site. The function accepts the ID of the todo that should be updated and a todo request object that has the desired changes. The function then search for the matching todo object in your todo list and update it with the received changes.
 
 The PATCH handler responds with the entire todo object as it exists after being updated along with the `200 OK` status code. 
 
